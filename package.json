@@ -1,0 +1,30 @@
+{
+  "name": "@onchain-id/claim-issuer-solidity",
+  "version": "1.0.0",
+  "description": "Smart contracts for ONCHAINID Claim Issuers.",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "build": "hardhat compile",
+    "test": "hardhat test",
+    "test:gas": "REPORT_GAS=true hardhat test",
+    "test:coverage": "hardhat coverage"
+  },
+  "keywords": [
+    "ONCHAINID",
+    "identity",
+    "ssi",
+    "did",
+    "blockchain",
+    "solidity",
+    "tokeny"
+  ],
+  "author": "Tokeny Solutions <contact@tokeny.com>",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@openzeppelin/contracts-upgradeable": "^4.8.0",
+    "@openzeppelin/hardhat-upgrades": "^1.22.0",
+    "hardhat": "^2.12.4"
+  }
+}
